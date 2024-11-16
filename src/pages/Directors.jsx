@@ -1,16 +1,19 @@
 import { useEffect, useState } from "react";
+import NavBar from "../components/NavBar";
+import DirectorCard from "../components/DirectorCard";
 
 function Directors() {
   return (
     <>
       <header>
-        {/* What component should go here? */}
+        <NavBar />
       </header>
       <main>
-        {/* Director info here! */}
+        <h1>Directors Page</h1>
+        <DirectorCard />
       </main>
     </>
   );
-};
+}
 
 export default Directors;
